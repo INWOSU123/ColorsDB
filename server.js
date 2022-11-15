@@ -17,9 +17,5 @@ app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
 require(path.join(__dirname, "./routes/color-routes.js"))(app);
-<<<<<<< HEAD
-require(path.join(dirname, "./routes/api-routes.js"))(app);
-=======
 require(path.join(__dirname, "./routes/api-routes.js"))(app);
->>>>>>> 19fc2e2cd0d957fb01ad12c729efbf36765800ec
 module.exports = app;
